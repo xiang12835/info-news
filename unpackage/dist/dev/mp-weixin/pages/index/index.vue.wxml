@@ -1,0 +1,8 @@
+<template name="49265a45">
+  <view style="flex-wrap:wrap;" class="_view data-v-50f39687">
+    <navigator class="_navigator data-v-50f39687 news-list" url="{{'../info/info?newsid='+item.article_id}}" wx:for="{{news}}" wx:for-index="index" wx:for-item="item">
+      <image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=854172350,1232791925&fm=27&gp=0.jpg" mode="widthFix" class="_image data-v-50f39687"></image>
+      <view class="_view data-v-50f39687 news-title"> {{item.article_title}} </view>
+    </navigator>
+  </view>
+</template>

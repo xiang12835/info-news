@@ -1,0 +1,9 @@
+<template name="cd95e14e">
+  <view style="flex-wrap:wrap;" class="_view data-v-4ad5d421">
+    <view style="flex-wrap:wrap;" class="_view data-v-4ad5d421"> {{news.article_title}} </view>
+    <view style="flex-wrap:wrap;" wx:for="{{news.article_content}}" wx:for-index="index" wx:for-item="item" class="_view data-v-4ad5d421">
+      <image wx:if="{{item.type == 'img'}}" src="{{item.content}}" style="width:100%;" mode="widthFix" class="_image data-v-4ad5d421"></image>
+      <text wx:if="{{item.type == 'txt'}}" class="_text data-v-4ad5d421"> {{item.content}} </text>
+    </view>
+  </view>
+</template>
