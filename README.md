@@ -1,4 +1,4 @@
-# info-news-uniapp
+# info-uniapp
 
 > 简介
 
